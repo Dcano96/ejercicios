@@ -1,0 +1,56 @@
+.contenedor {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.ejercicio1 {
+  background: yellow;
+  height: 12rem;
+  width: 10rem;
+}
+
+.ejercicio1:hover {
+  cursor: auto;
+  transform: translate(100px, 200px);
+}
+
+.ejercicio2 {
+  background: green;
+  height: 12rem;
+  width: 10rem;
+}
+
+.ejercicio2:hover {
+  cursor: pointer;
+  transform: rotateX(150deg);
+}
+
+.ejercicio3 {
+  background: orange;
+  height: 12rem;
+  width: 10rem;
+  width: 100px; /* Ancho inicial */
+  transition: width 2s; /* Transición de 2 segundos para cambios en el ancho */
+}
+
+.ejercicio3:hover {
+  cursor: pointer;
+  width: 200px;
+}
+
+.ejercicio4 {
+  background: green;
+  width: 10rem;
+  height: 12rem;
+  animation: cambioColor 2s infinite alternate;
+}
+
+@keyframes cambioColor {
+  0% {
+    background-color: red;
+  }
+  100% {
+    background-color: blue;
+  }
+}
