@@ -4,22 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="shortcut icon" href="./img/nidosky.png" type="image/x-icon" />
     <title>Nido Sky</title>
     <link
       href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/normalizeo.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="site-header inicio">
-      <section class="contenedor contenido-header">
+    <header class="site-header">
+      <div class="contenedor contenido-header">
         <div class="barra">
           <h1>Elegante refugio</h1>
           <img src="./img/nidosky.png" alt="" height="80rem" />
-          <div class="mobile-menu"></div>
+          <div class="mobile-menu">
+            <a href="#navegacion">
+              <img src="img/barras.svg" alt="Icono Menu" />
+            </a>
+          </div>
 
           <nav id="navegacion" class="navegacion">
             <a href="nosotros.html">Nosotros</a>
@@ -28,41 +31,12 @@
             <a href="contacto.html">Contacto</a>
           </nav>
         </div>
-        <h2>Alquiler de Apartamentos de Lujo</h2>
-      </section>
+      </div>
       <!-- contenedor -->
     </header>
 
-    <section class="contenedor seccion">
-      <h2 class="fw-300 centrar-texto" style="margin-left: 10rem">
-        Sobre Nosotros
-      </h2>
-
-      <div class="iconos-nosotros">
-        <div class="icono">
-          <img src="img/icono1.svg" alt="Icono Seguridad" />
-          <h3>Seguridad</h3>
-          <p>
-            "Su seguridad es nuestra prioridad. Por favor, mantenga cerradas las
-            puertas y ventanas de su habitación. Si necesita ayuda, nuestro
-            personal está disponible las 24 horas. ¡Disfrute su estancia!"
-          </p>
-        </div>
-
-        <div class="icono">
-          <img src="img/icono2.svg" alt="Icono Mejor Precio" />
-          <h3>los Mejores Precios</h3>
-          <p>
-            "¡Disfrute de una excelente relación calidad-precio en nuestro
-            hotel! Habitaciones cómodas y servicios excepcionales a precios
-            irresistibles. ¡Reserve hoy y ahorre en su próxima estadía!"
-          </p>
-        </div>
-      </div>
-    </section>
-
     <main class="seccion contenedor">
-      <h2 class="fw-300 centrar-texto" style="margin-right: 26rem">
+      <h2 class="fw-300 centrar-texto" style="margin-right: 25rem">
         Apartamentos
       </h2>
 
@@ -73,7 +47,12 @@
             <h3>Apartamento Tipo 1</h3>
             <p>
               Ingrese a un espacio de 75m2 de comodidad y lujo, equipado con una
-              cama tamaño queen y un sofá cama.
+              cama tamaño queen y un sofá cama. Este apartamento le ofrece la
+              comodidad de 2 baños, una cocina completa, tina romana para 2
+              personas, 2 televisores, 2 unidades de aire acondicionado,
+              lavadora, secadora y acceso a una línea de fibra óptica de alta
+              velocidad. Además, nuestro servicio de recepción está disponible
+              las 24 horas del día.
             </p>
             <p class="precio">$300000</p>
 
@@ -92,8 +71,8 @@
               </li>
             </ul>
 
-            <a href="./apartamentos.html" class="boton boton-amarillo d-block"
-              >Ver Apartamento</a
+            <a href="./contacto.html" class="boton boton-amarillo d-block"
+              >Rentar</a
             >
           </div>
         </div>
@@ -104,7 +83,12 @@
             <h3>Apartamento Tipo 2</h3>
             <p>
               Explora un espacio de 69m2 de lujo y privacidad. Este apartamento
-              te proporciona una cocina completa.
+              te proporciona una cocina completa, una bañera romana, 2
+              televisores, 2 unidades de aire acondicionado, lavadora, secadora
+              y acceso a una conexión de fibra óptica de alta velocidad. Además,
+              nuestro servicio de recepción está disponible las 24 horas del
+              día, los 7 días de la semana para garantizar una experiencia
+              verdaderamente inolvidable.
             </p>
             <p class="precio">$200000</p>
             <ul class="iconos-caracteristicas">
@@ -122,8 +106,8 @@
               </li>
             </ul>
 
-            <a href="anuncio.html" class="boton boton-amarillo d-block"
-              >Ver Apartamento</a
+            <a href="./contacto.html" class="boton boton-amarillo d-block"
+              >Rentar</a
             >
           </div>
         </div>
@@ -134,9 +118,13 @@
             <h3>Apartamento Tipo 3</h3>
             <p>
               Una espaciosa y lujosa suite tipo loft de 105 m2 en 2 niveles con
-              2 camas queen size.Disfrute de la privacidad de 2 baños.
+              2 camas queen size. Disfrute de la privacidad de 2 baños con
+              jardines delantero y trasero. Descubra el placer de tener una
+              biblioteca de vinos personal, una cocina completa, una bañera
+              romana para largos baños y conversaciones profundas. Además, hay 3
+              televisores, 3 aires acondicionados, lavadora y secadora.
             </p>
-            <p class="precio">$5000000</p>
+            <p class="precio">$500000</p>
             <ul class="iconos-caracteristicas">
               <li>
                 <img src="img/icono_wc.svg" alt="icono wc" />
@@ -152,35 +140,21 @@
               </li>
             </ul>
 
-            <a href="anuncio.html" class="boton boton-amarillo d-block"
-              >Ver Apartamento</a
+            <a href="./contacto.html" class="boton boton-amarillo d-block"
+              >Rentar</a
             >
           </div>
-        </div>
-      </div>
-
-      <div class="ver-todas">
-        <a href="./apartamentos.html" class="boton boton-verde">Ver Todas</a>
+          <!--contenido anuncio-->
+       
       </div>
     </main>
 
-    <section class="imagen-contacto">
-      <div class="contenedor contenido-contacto">
-        <h2>Disfruta de las mejores Vacaciones</h2>
-        <p>
-          Llena el formulario de contacto y un asesor se pondrá en contacto
-          contigo a la brevedad
-        </p>
-        <a href="contacto.html" class="boton boton-amarillo">Contactános</a>
-      </div>
-    </section>
-
     <footer class="site-footer seccion">
       <div class="contenedor contenedor-footer">
-        <nav class="navegacion">
+        <nav id="navegacion" class="navegacion">
           <a href="nosotros.html">Nosotros</a>
           <a href="./apartamentos.html">Apartamentos</a>
-          <a href="./Servicios.html">Servicos</a>
+          <a href="./Servicios.html">Servicios</a>
           <a href="contacto.html">Contacto</a>
         </nav>
         <p class="copyright">Nido Sky 2024 &copy;</p>
